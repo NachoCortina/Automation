@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Pruebas Login(failed)">
+    <classes>
+      <class name="pruebas.LoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+          <include name="login_valid"/>
+        </methods>
+      </class> <!-- pruebas.LoginTest -->
+      <class name="pruebas.RegisterTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- pruebas.RegisterTest -->
+    </classes>
+  </test> <!-- Pruebas Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

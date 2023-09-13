@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="Functional Testing(failed)">
+    <classes>
+      <class name="pruebas.RegisterTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- pruebas.RegisterTest -->
+      <class name="pruebas.LoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+          <include name="login_invalid"/>
+        </methods>
+      </class> <!-- pruebas.LoginTest -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI Test Suite] -->
